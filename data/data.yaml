@@ -1,0 +1,13 @@
+train: train/images
+val: valid/images
+test: test/images
+
+nc: 4
+names: ['drinking', 'eating', 'lying', 'stand']
+
+roboflow:
+  workspace: burak-taskin
+  project: test-4-4-kcjs1-rk7pc
+  version: 1
+  license: CC BY 4.0
+  url: https://app.roboflow.com/burak-taskin/test-4-4-kcjs1-rk7pc/1
